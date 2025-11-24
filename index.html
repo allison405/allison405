@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Marmelad&display=swap" rel="stylesheet">
+        <title>Allison's Website!</title>
+    </head>
+
+    <body>
+        <h2>All about....</h2>
+        <div class="intro-container">
+            <div class="intro-left">
+                <h1><strong>Allison Lee</strong></h1>
+                <div class="profile-container">
+                    <img src="Profile.jpg" alt="Profile Picture">
+                </div>
+            </div>
+            <div class="intro-right">
+                <div class="icon-links">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allisonlee422@gmail.com">
+                        <img src="email.png" alt="Email Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/allisonlee1029385/">
+                        <img src="linkedin.png" alt="LinkedIn Icon">
+                    </a>
+                    <a href="Allison Lee's Resume.pdf" download>
+                        <img src="form.png" alt="Resume Icon">
+                    </a>
+                </div>
+                <p>Hi! I'm a Junior at the University of Maryland majoring in Computer Science.</p>
+                <p>I have a growing passion in Web Development, UI, and Game Development!</p>
+            </div>
+        </div>
+        <h3>Projects</h3>
+        <div class="projects-container">
+        <div class="projects-left">
+            <button class="proj-button" onclick="toggleProjects('completed')">Completed</button>
+            <div id="completed" class="proj-content">
+                <ul>
+                <li><strong>Automated Slides Generator</strong> 
+                    During my '25 summer internship at Washington Software, my initial project was researching and 
+                    learning AI prompting of OpenAI's CustomGPT builder. I built a custom IT tutor 
+                    where upon opening, users would be prompted questions and provided lessons in 
+                    return from their response. Utilizing n8n automation, I attempted at building a slides generator 
+                    with the customGPT. Users would open a form, fill it out, and n8n would automate the 
+                    process of fetching OpenAI information to place into a slideshow.</li>
+                    <img src="n8n.png">
+                <li><strong>UMD Ganji Events Webpage</strong>
+                    Over the '25 summer, I joined the Campus Coders Crew club of UMD to build 
+                    websites for clubs. Through the communication between clubs, we were able to 
+                    gather ideas and build websites to their club needs. I worked on a team with Ganji to 
+                    develop the events page of their website, implementing an interactive calendar 
+                    with customizable banners.</li>
+                    <img src="ccc1.png"> <img src="ccc2.png">
+                <li><strong>Yummy Bytes</strong>
+                    At UMD's own Bitcamp '25 hackathon, I, alongside my team 
+                    utilized Gemini API to build an AI recipe generator according 
+                    to user prompts and dietary needs/restrictions. </li>
+                    <img src="yummyBytes.png">
+            </ul>
+            </div>
+        </div>
+        <div class="projects-right">
+            <button class="proj-button" onclick="toggleProjects('ongoing')">Ongoing</button>
+            <div id="ongoing" class="proj-content">
+                <ul>
+                <li><strong>Crave Cart</strong>
+                    Working on a team in Open Sourcery at UMD, our project is Crave-Cart, 
+                    an extension that will collect and save recipes for users. 
+                    On the team, I have contributed HTML, JavaScript, and CSS aspects to 
+                    bring the extension and its features to life.</li>
+                    <img src="craveCart.png">
+                <li><strong>Puppy Cafe</strong>
+                    Starting an ambitious project, I wanted to learn about all about game 
+                    development. Always being interested in how games are created, built, 
+                    and expanded, I decided to take on this learning journey and create a 
+                    game revolving around Taiwanese desserts and everyone's favorite, 
+                    puppies. The goal of the game is to be fun, interactive, and calming, 
+                    but also act as an encouraging schedule tracker. As of now, 
+                    I am designing game elements on Aseprite!</li>
+                    <img src="puppyCafe1.png"> <img src="puppyCafe2.png">
+                </ul>
+                </div>
+            </div>
+        </div>
+        <h3>Reach out:</h3>
+        <p>I would be more than happy to have a chat, so please feel free to reach out to me :D</p>
+        <div class="icon-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allisonlee422@gmail.com">
+                <img src="email.png" alt="Email Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/allisonlee1029385/">
+                <img src="linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="Allison Lee's Resume.pdf" download>
+                <img src="form.png" alt="Resume Icon">
+            </a>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+    </html>
