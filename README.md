@@ -1,4 +1,6 @@
-## Hi there 👋
+## Hi there! 
+Welcome to my personal website :) 
+Here you can find out more about me, my personal activities as a CS student, and contacts to reach me.
 
 <!--
 **allison405/allison405** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
