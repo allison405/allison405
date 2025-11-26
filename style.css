@@ -1,13 +1,17 @@
 html {
-    background-color: #98bfda; 
     font-family: 'Comfortaa', cursive;
     scroll-behavior: smooth;
+}
+
+header{
+    width: 100vw;
+    background-color: #cce2f1; 
 }
 
 body {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 0px;
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -50,7 +54,6 @@ body {
 }
 
 h1 { font-size: 3rem; color: #4b2e83; margin-bottom: 0.2em; text-align: center; }
-h2 { font-size: 2rem; color: #2e2e2e; margin-bottom: 0.5em; text-align: center; }
 h3 { font-size: 1.5rem; color: #2e2e2e; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #ffffff88; padding-bottom: 5px; }
 
 p { font-size: 1.1rem; margin-bottom: 15px; color: #2f2f2f; text-align: center; }
@@ -137,7 +140,6 @@ p { font-size: 1.1rem; margin-bottom: 15px; color: #2f2f2f; text-align: center; 
 @media (max-width: 768px) {
     body { padding: 15px; }
     h1 { font-size: 2.5rem; }
-    h2 { font-size: 1.8rem; }
     h3 { font-size: 1.3rem; }
 
     .projects-container { flex-direction: column; gap: 20px; }
