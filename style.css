@@ -1,14 +1,22 @@
 html {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Instrument Serif';
     scroll-behavior: smooth;
+    font-size: 25px;
 }
 
 header{
-    width: 100vw;
-    background-color: #cce2f1; 
+    width: 100%;
+    text-align: left;
+    align-self: flex-start;
 }
 
 body {
+    background-image: url('glenstoneView.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     max-width: 1100px;
     margin: 0 auto;
     padding: 0px;
@@ -53,10 +61,28 @@ body {
     box-shadow: 3px 3px 12px rgba(0,0,0,0.15);
 }
 
-h1 { font-size: 3rem; color: #4b2e83; margin-bottom: 0.2em; text-align: center; }
-h3 { font-size: 1.5rem; color: #2e2e2e; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #ffffff88; padding-bottom: 5px; }
+h1 { 
+    font-size: 3rem; 
+    color: #000000; 
+    margin-bottom: 0.2em; 
+    text-align: center; 
+}
 
-p { font-size: 1.1rem; margin-bottom: 15px; color: #2f2f2f; text-align: center; }
+h3 { 
+    font-size: 1.5rem; 
+    color: #2e2e2e; 
+    margin-top: 2em; 
+    margin-bottom: 0.5em; 
+    border-bottom: 2px solid #ffffff88; 
+    padding-bottom: 5px; 
+}
+
+p { 
+    font-size: 1.1rem; 
+    margin-bottom: 15px; 
+    color: #2f2f2f; 
+    text-align: center; 
+}
 
 .projects-container {
     display: flex;
@@ -73,11 +99,11 @@ p { font-size: 1.1rem; margin-bottom: 15px; color: #2f2f2f; text-align: center; 
 }
 
 .proj-button {
-    background-color: #f5e6ff;
-    color: #4b2e83;
+    background-color: #aeaecc;
+    color: #302b61;
     border: none;
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     border-radius: 12px;
     cursor: pointer;
@@ -88,7 +114,7 @@ p { font-size: 1.1rem; margin-bottom: 15px; color: #2f2f2f; text-align: center; 
 }
 
 .proj-button:hover {
-    background-color: #e1cfff;
+    background-color: #8f8fcc;
     transform: scale(1.05);
 }
 
