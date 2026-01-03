@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">        <title>Allison's Website!</title>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">        
+        <title>Allison's Website!</title>
     </head>
 
     <body>
@@ -36,10 +37,11 @@
                 <p>I have a growing passion in Web Development, UI, and Game Development!</p>
             </div>
         </div>
+
         <h3>Projects:</h3>
         <div class="projects-container">
         <div class="projects-left">
-            <button class="proj-button" onclick="toggleProjects('completed')">Completed</button>
+            <h4 class="proj-header">Completed</h4>
             <div id="completed" class="proj-content">
                 <ul>
                 <li><strong>Automated Slides Generator:</strong> 
@@ -65,11 +67,11 @@
                     to user prompts and dietary needs/restrictions. </li>
                     <img src="yummyBytes.png">
             </ul>
-                <button class="close-btn" onclick="toggleProjects('completed')">Close</button>
             </div>
         </div>
+
         <div class="projects-right">
-            <button class="proj-button" onclick="toggleProjects('ongoing')">Ongoing</button>
+            <h4 class="proj-header">Ongoing</h4>
             <div id="ongoing" class="proj-content">
                 <ul>
                 <li><strong>Crave Cart</strong>
@@ -89,10 +91,10 @@
                     I am designing game elements on Aseprite!</li>
                     <img src="puppyCafe1.png"> <img src="puppyCafe2.png">
                 </ul>
-                    <button class="close-btn" onclick="toggleProjects('ongoing')">Close</button>
-                </div>
             </div>
         </div>
+        </div>
+
         <h3>Reach out:</h3>
         <p>I would be more than happy to have a chat, so please reach out!</p>
         <div class="icon-links">
@@ -109,5 +111,4 @@
 
         <script src="script.js"></script>
     </body>
-
-    </html>
+</html>

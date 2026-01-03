@@ -11,12 +11,7 @@ header{
 }
 
 body {
-    background-image: url('glenstoneView.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+    background-color: #dddbde;
     max-width: 1100px;
     margin: 0 auto;
     padding: 0px;
@@ -98,33 +93,18 @@ p {
     flex-direction: column;
 }
 
-.proj-button {
-    background-color: #aeaecc;
-    color: #302b61;
-    border: none;
-    padding: 12px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 12px;
-    cursor: pointer;
+.proj-header {
+    font-size: 1.3rem;
+    font-weight: bold;
     margin-bottom: 10px;
-    transition: transform 0.2s ease, background-color 0.3s ease;
-    width: 100%;
-    text-align: center;
-}
-
-.proj-button:hover {
-    background-color: #8f8fcc;
-    transform: scale(1.05);
 }
 
 /* Project Content */
 .proj-content {
-    display: none;
     margin-top: 0;
     padding: 20px;
     background-color: #ffffffcc;
-    border-left: 5px solid #d2b8ff;
+    border-left: 5px solid #c0ace2;
     border-radius: 12px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     width: 100%; 
@@ -180,30 +160,6 @@ p {
 
 .repo:hover {
     background-color: #e1cfff;
-    transform: scale(1.05);
-}
-
-.close-btn {
-    display: block;
-    margin: 20px auto 0 auto;
-    margin-top: 15px;
-    padding: 10px 18px;
-    background-color: #d2b8ff;
-    color: #4b2e83; 
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 16px;
-    transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
-    width: 40%;
-    text-align: center;
-    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
-}
-
-.close-btn:hover {
-    background-color: #e1cfff; 
-    color: #2e2e2e; 
     transform: scale(1.05);
 }
 
